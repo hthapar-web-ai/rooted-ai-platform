@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Node / React
+frontend/node_modules/
+frontend/.vite/
+frontend/.next/
+frontend/dist/
+
+# OS files
+.DS_Store
+
+# Data cache
+backend/data/*.tmp
+backend/data/*.bak
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Compiled
+*.egg-info/
+build/
+dist/
