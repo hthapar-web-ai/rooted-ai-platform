@@ -39,3 +39,11 @@ frontend/.vite/
 .DS_Store
 .vscode/
 .idea/
+.venv/
+venv/
+node_modules/
+.playwright/
+ms-playwright/
+.cache/
+backend/.venv/
+backend/.cache/
