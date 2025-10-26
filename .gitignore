@@ -15,3 +15,27 @@ backend/data/*.bak
 build/
 dist/
 .venv/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs & caches
+.venv/
+backend/.venv/
+backend/.cache/
+.cache/
+.playwright/
+ms-playwright/
+**/.pytest_cache/
+
+# Node/React
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
